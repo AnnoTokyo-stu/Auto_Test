@@ -24,3 +24,5 @@ Jenkins 每 5 分钟轮询一次私有 GitHub 仓库。自动构建只执行：
 ## 凭据
 
 GitHub 凭据仅用于 Jenkins 克隆私有仓库，应使用只读 Fine-grained PAT，并存放在 Jenkins Credentials 中。项目账号和密码继续保存在本机 `.env.local` 或专用 Jenkins Secret File 中，禁止提交到 Git。
+
+仓库内的 `ci/jenkins-job.xml` 是任务配置备份，任务名为 `Auto_Test-CI`，引用 Jenkins 凭据 ID `github-private-demo-read`；XML 中不包含 Token。
