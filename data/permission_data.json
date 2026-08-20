@@ -1,0 +1,14 @@
+[
+  {
+    "case_id": "WEB-017",
+    "role_name_prefix": "知识库自动化角色",
+    "role_code_prefix": "AUTO_KB_ROLE",
+    "unauthorized_path": "__TO_BE_CONFIRMED__"
+  },
+  {
+    "case_id": "WEB-020",
+    "dictionary_type": "__TO_BE_CONFIRMED__",
+    "label_prefix": "自动化业务类型",
+    "value_prefix": "AUTO_BUSINESS_TYPE"
+  }
+]

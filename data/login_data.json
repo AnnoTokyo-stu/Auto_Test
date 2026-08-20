@@ -1,0 +1,16 @@
+[
+  {
+    "case_id": "WEB-007",
+    "scenario": "wrong_password",
+    "username": "${TEST_USER_NAME}",
+    "password": "${TEST_WRONG_PASSWORD}",
+    "expected_error_text": "__TO_BE_CONFIRMED__"
+  },
+  {
+    "case_id": "WEB-007",
+    "scenario": "unknown_user",
+    "username": "${TEST_UNKNOWN_USER}",
+    "password": "${TEST_WRONG_PASSWORD}",
+    "expected_error_text": "__TO_BE_CONFIRMED__"
+  }
+]

@@ -1,0 +1,188 @@
+立即体验
+<button type="button" class="primary-action hero-button"><span>立即体验</span><img src="/assets/action-arrow.45031ba6.svg" alt=""></button>
+#app > div > main > div > section.hero-section > div > div > button.primary-action.hero-button
+
+顶部菜单：数据交易市场
+<li data-v-e8dd1f67="" role="menuitem" tabindex="0" class="el-menu-item" style="border-bottom-color: transparent;"> 数据交易市场 </li>
+#app > div > header > div > ul > li:nth-child(2)
+
+关键词查询输入框
+<input type="text" autocomplete="off" placeholder="产品名称/编号/简介" class="el-input__inner">
+#app > div > div > div.product-grid-wrapper.with-header > div > div.section.filter-section > div.filter-content > div:nth-child(1) > div > input
+
+关键词查询按钮
+<button data-v-eab96fb0="" type="button" class="el-button el-button--primary el-button--small" style="margin-left: 12px;"><!----><!----><span> 搜索 </span></button>
+#app > div > div > div.product-grid-wrapper.with-header > div > div.section.filter-section > div.filter-content > div:nth-child(1) > button
+
+排序方式（默认方式、最新上架）
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div > div.product-grid-wrapper.with-header > div > div.section.filter-section > div.filter-actions > div.actions-top > div.el-select.el-select--small > div.el-input.el-input--small.el-input--suffix > input
+
+视图切换（卡片视图，列表视图）
+<div data-v-eab96fb0="" class="el-dropdown"><i data-v-eab96fb0="" class="el-icon-menu view-toggle el-dropdown-selfdefine" aria-haspopup="list" aria-controls="dropdown-menu-6866" role="button" tabindex="0"></i><ul data-v-eab96fb0="" class="el-dropdown-menu el-popper el-dropdown-menu--small" style="display: none;" id="dropdown-menu-6866"><li data-v-eab96fb0="" aria-disabled="true" class="el-dropdown-menu__item is-disabled"><!----> 卡片视图 </li><li data-v-eab96fb0="" tabindex="-1" class="el-dropdown-menu__item"><!----> 列表视图 </li></ul></div>
+#app > div > div > div.product-grid-wrapper.with-header > div > div.section.filter-section > div.filter-actions > div.actions-top > div.el-dropdown
+
+业务场景分类
+<div data-v-eab96fb0="" class="filter-tags"><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> 具身智能机器人操作数据采集与标注 </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> 餐厅 </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> 家庭 </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> 元动作 </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> 商超 </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> 工业 </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> 汽车 </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> 办公 </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> 3C </span></div>
+#app > div > div > div.product-grid-wrapper.with-header > div > div.section.filter-section > div.filter-content > div:nth-child(2) > div
+
+重置筛选
+<span> 重置全部筛选 </span>
+#app > div > div > div.product-grid-wrapper.with-header > div > div.section.filter-section > div.filter-actions > div.actions-bottom > button:nth-child(1) > span
+
+展开筛选/收起筛选
+<span> 收起筛选 <i data-v-eab96fb0="" class="el-icon-arrow-up"></i></span>
+<button data-v-eab96fb0="" type="button" class="el-button el-button--text el-button--small"><!----><!----><span> 展开筛选 <i data-v-eab96fb0="" class="el-icon-arrow-down"></i></span></button>
+#app > div > div > div.product-grid-wrapper.with-header > div > div.section.filter-section > div.filter-actions > div.actions-bottom > button:nth-child(3)
+#app > div > div > div.product-grid-wrapper.with-header > div > div.section.filter-section > div.filter-actions > div.actions-bottom > button:nth-child(3)
+
+包含数据类型
+<div data-v-eab96fb0="" class="filter-tags"><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> 触觉数据 </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> 视觉数据 </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> 关节数据 </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> 文本数据 </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> 语音数据 </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> 其它数据 </span></div>
+#app > div > div > div.product-grid-wrapper.with-header > div > div.section.filter-section > div.filter-content > div:nth-child(4) > div
+
+数据格式
+<div data-v-eab96fb0="" class="filter-tags"><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> HDF5 </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> RLDS </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> LeRobot v2PL / v3PL </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> ROS Bag/MCAP </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> Zarr </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> Parquet </span><span data-v-eab96fb0="" class="el-tag el-tag--medium el-tag--plain"> 其他 </span></div>
+#app > div > div > div.product-grid-wrapper.with-header > div > div.section.filter-section > div.filter-content > div:nth-child(5) > div
+
+产品选择（这个是动态变化的，因为产品会变化）
+<div data-v-eab96fb0="" class="product-grid"><div data-v-0859cb0d="" data-v-eab96fb0="" class="product-card"><div data-v-0859cb0d="" class="card-banner" style="background-image: url(&quot;http://border.embodatadeglobal.com:18080/borderrobot/2026/M_2087814692255870976.png?response-content-type=image%2Fpng&amp;Content-Type=image%2Fpng&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=admin%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260813T085028Z&amp;X-Amz-Expires=600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=1a2864d72ca2f1b398ee2af72c308357ff1490bf938d3df626a360d396043b16&quot;); background-size: cover; background-position: center center;"></div><div data-v-0859cb0d="" class="card-body"><div data-v-0859cb0d="" class="product-price"><span data-v-0859cb0d="" class="price-symbol">¥</span><span data-v-0859cb0d="" class="price-value">8,700</span><!----></div><div data-v-0859cb0d="" class="product-name">自动化上下架变更数据产品_20260813161239_e65448</div><div data-v-0859cb0d="" class="product-intro">已下架产品自动化变更：补充数据更新频率与适用范围说明。 产品：自动化上下架变更数据产品_20260813161239_e65448</div><div data-v-0859cb0d="" class="data-tags"><span data-v-0859cb0d="" class="data-tag">视觉数据</span><span data-v-0859cb0d="" class="data-tag">关节数据</span><span data-v-0859cb0d="" class="data-tag format-tag">HDF5</span><span data-v-0859cb0d="" class="data-tag pricing-mode-tag"> 一口价 </span></div><div data-v-0859cb0d="" class="info-grid"><div data-v-0859cb0d="" class="info-cell"><div data-v-0859cb0d="" class="info-label">任务类型</div><div data-v-0859cb0d="" class="info-value">抓取与放置</div></div><div data-v-0859cb0d="" class="info-cell"><div data-v-0859cb0d="" class="info-label">难度等级</div><div data-v-0859cb0d="" class="info-value">中等</div></div></div><div data-v-0859cb0d="" class="provider-section"><div data-v-0859cb0d="" class="provider-label">数据提供方</div><div data-v-0859cb0d="" class="provider-value">嘉豪科技有限公司</div></div></div></div><div data-v-0859cb0d="" data-v-eab96fb0="" class="product-card"><div data-v-0859cb0d="" class="card-banner" style="background-image: url(&quot;http://border.embodatadeglobal.com:18080/borderrobot/2026/M_2086709601025167360.jpg?response-content-type=image%2Fjpeg&amp;Content-Type=image%2Fjpeg&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=admin%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260813T085028Z&amp;X-Amz-Expires=600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=0564f2e45bad63d1db8a951e75516f99f961ebec907ba33f639a21ec69821986&quot;); background-size: cover; background-position: center center;"></div><div data-v-0859cb0d="" class="card-body"><div data-v-0859cb0d="" class="product-price"><span data-v-0859cb0d="" class="price-symbol">¥</span><span data-v-0859cb0d="" class="price-value">50,000</span><!----></div><div data-v-0859cb0d="" class="product-name">货架管理-眼镜陈列</div><div data-v-0859cb0d="" class="product-intro">涵盖包括但不限于眼镜陈列的拿取与放置等任务的全模态交互数据，用于训练具身模型完成商超场景下货架管理的相关操作。</div><div data-v-0859cb0d="" class="data-tags"><span data-v-0859cb0d="" class="data-tag">触觉数据</span><span data-v-0859cb0d="" class="data-tag">视觉数据</span><span data-v-0859cb0d="" class="data-tag">关节数据</span><span data-v-0859cb0d="" class="data-tag">文本数据</span><span data-v-0859cb0d="" class="data-tag">语音数据</span><span data-v-0859cb0d="" class="data-tag format-tag">HDF5</span><span data-v-0859cb0d="" class="data-tag pricing-mode-tag"> 一口价 </span></div><div data-v-0859cb0d="" class="info-grid"><div data-v-0859cb0d="" class="info-cell"><div data-v-0859cb0d="" class="info-label">任务类型</div><div data-v-0859cb0d="" class="info-value">货架管理</div></div><div data-v-0859cb0d="" class="info-cell"><div data-v-0859cb0d="" class="info-label">难度等级</div><div data-v-0859cb0d="" class="info-value">简单</div></div></div><div data-v-0859cb0d="" class="provider-section"><div data-v-0859cb0d="" class="provider-label">数据提供方</div><div data-v-0859cb0d="" class="provider-value">北京数聚通启运营管理有限公司</div></div></div></div><div data-v-0859cb0d="" data-v-eab96fb0="" class="product-card"><div data-v-0859cb0d="" class="card-banner" style="background-image: url(&quot;http://border.embodatadeglobal.com:18080/borderrobot/2026/M_2084534269065072640.jpg?response-content-type=image%2Fjpeg&amp;Content-Type=image%2Fjpeg&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=admin%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260813T085028Z&amp;X-Amz-Expires=600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=18b0a52afe3eaed62c42d01a35a295330a85e1af7c1c8574e8b265f9f070c493&quot;); background-size: cover; background-position: center center;"></div><div data-v-0859cb0d="" class="card-body"><div data-v-0859cb0d="" class="product-price"><span data-v-0859cb0d="" class="price-symbol">¥</span><span data-v-0859cb0d="" class="price-value">100,000</span><!----></div><div data-v-0859cb0d="" class="product-name">宠物照料 - 猫砂铺设</div><div data-v-0859cb0d="" class="product-intro">涵盖包括但不限于猫砂铺设的拿取与放置等任务的全模态交互数据，用于训练具身模型完成家庭场景下宠物照料的相关操作。</div><div data-v-0859cb0d="" class="data-tags"><span data-v-0859cb0d="" class="data-tag">触觉数据</span><span data-v-0859cb0d="" class="data-tag">视觉数据</span><span data-v-0859cb0d="" class="data-tag">关节数据</span><span data-v-0859cb0d="" class="data-tag">文本数据</span><span data-v-0859cb0d="" class="data-tag">语音数据</span><span data-v-0859cb0d="" class="data-tag format-tag">ROS Bag/MCAP</span><span data-v-0859cb0d="" class="data-tag pricing-mode-tag"> 一口价 </span></div><div data-v-0859cb0d="" class="info-grid"><div data-v-0859cb0d="" class="info-cell"><div data-v-0859cb0d="" class="info-label">任务类型</div><div data-v-0859cb0d="" class="info-value">物品取用</div></div><div data-v-0859cb0d="" class="info-cell"><div data-v-0859cb0d="" class="info-label">难度等级</div><div data-v-0859cb0d="" class="info-value">中等</div></div></div><div data-v-0859cb0d="" class="provider-section"><div data-v-0859cb0d="" class="provider-label">数据提供方</div><div data-v-0859cb0d="" class="provider-value">北京数聚通启运营管理有限公司</div></div></div></div><div data-v-0859cb0d="" data-v-eab96fb0="" class="product-card"><div data-v-0859cb0d="" class="card-banner" style="background-image: url(&quot;http://border.embodatadeglobal.com:18080/borderrobot/2026/M_2084096558520897536.jpg?response-content-type=image%2Fjpeg&amp;Content-Type=image%2Fjpeg&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=admin%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260813T085028Z&amp;X-Amz-Expires=600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=95af7f05522669725a4e171ce5368a8a6e4d3605e3c49bd869fddf785b6c59da&quot;); background-size: cover; background-position: center center;"></div><div data-v-0859cb0d="" class="card-body"><div data-v-0859cb0d="" class="product-price"><span data-v-0859cb0d="" class="price-symbol">¥</span><span data-v-0859cb0d="" class="price-value">298,889.99</span><!----></div><div data-v-0859cb0d="" class="product-name">汽车仪表盘动态灵敏度漂移可变反比数据</div><div data-v-0859cb0d="" class="product-intro">汽车仪表盘动态灵敏度漂移可变反比数据</div><div data-v-0859cb0d="" class="data-tags"><span data-v-0859cb0d="" class="data-tag">其它数据</span><span data-v-0859cb0d="" class="data-tag format-tag">RLDS</span><span data-v-0859cb0d="" class="data-tag pricing-mode-tag"> 一口价 </span></div><div data-v-0859cb0d="" class="info-grid"><div data-v-0859cb0d="" class="info-cell"><div data-v-0859cb0d="" class="info-label">任务类型</div><div data-v-0859cb0d="" class="info-value">开关操作</div></div><div data-v-0859cb0d="" class="info-cell"><div data-v-0859cb0d="" class="info-label">难度等级</div><div data-v-0859cb0d="" class="info-value">困难</div></div></div><div data-v-0859cb0d="" class="provider-section"><div data-v-0859cb0d="" class="provider-label">数据提供方</div><div data-v-0859cb0d="" class="provider-value">造梦工厂</div></div></div></div><div data-v-0859cb0d="" data-v-eab96fb0="" class="product-card"><div data-v-0859cb0d="" class="card-banner" style="background-image: url(&quot;http://border.embodatadeglobal.com:18080/borderrobot/2026/M_2082990560435539968.png?response-content-type=image%2Fpng&amp;Content-Type=image%2Fpng&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=admin%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260813T085028Z&amp;X-Amz-Expires=600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=7c3f8ab30125bbfad91585dd45897989037eab16f7b8c521ae75813ed225f8b0&quot;); background-size: cover; background-position: center center;"></div><div data-v-0859cb0d="" class="card-body"><div data-v-0859cb0d="" class="product-price"><span data-v-0859cb0d="" class="price-symbol">¥</span><span data-v-0859cb0d="" class="price-value">8,500</span><!----></div><div data-v-0859cb0d="" class="product-name">灵巧手触觉感知系统</div><div data-v-0859cb0d="" class="product-intro">面向机器人灵巧操作的多模态触觉数据集，包含抓取、滑动、按压等动作的触觉+视觉联合记录。</div><div data-v-0859cb0d="" class="data-tags"><span data-v-0859cb0d="" class="data-tag">触觉数据</span><span data-v-0859cb0d="" class="data-tag">视觉数据</span><span data-v-0859cb0d="" class="data-tag">关节数据</span><span data-v-0859cb0d="" class="data-tag">文本数据</span><span data-v-0859cb0d="" class="data-tag format-tag">HDF5</span><span data-v-0859cb0d="" class="data-tag pricing-mode-tag"> 一口价 </span></div><div data-v-0859cb0d="" class="info-grid"><div data-v-0859cb0d="" class="info-cell"><div data-v-0859cb0d="" class="info-label">任务类型</div><div data-v-0859cb0d="" class="info-value">抓取与放置</div></div><div data-v-0859cb0d="" class="info-cell"><div data-v-0859cb0d="" class="info-label">难度等级</div><div data-v-0859cb0d="" class="info-value">中等</div></div></div><div data-v-0859cb0d="" class="provider-section"><div data-v-0859cb0d="" class="provider-label">数据提供方</div><div data-v-0859cb0d="" class="provider-value">嘉豪科技有限公司</div></div></div></div><div data-v-0859cb0d="" data-v-eab96fb0="" class="product-card"><div data-v-0859cb0d="" class="card-banner" style="background-image: url(&quot;http://border.embodatadeglobal.com:18080/borderrobot/2026/M_2082371651684569088.png?response-content-type=image%2Fpng&amp;Content-Type=image%2Fpng&amp;X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=admin%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20260813T085028Z&amp;X-Amz-Expires=600&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=6dfa3e57ae7479dcc19bbd36bd2060bd59135003df3ea9f38e09192edd4ee2b3&quot;); background-size: cover; background-position: center center;"></div><div data-v-0859cb0d="" class="card-body"><div data-v-0859cb0d="" class="product-price"><span data-v-0859cb0d="" class="price-symbol">$</span><span data-v-0859cb0d="" class="price-value">12,000</span><!----></div><div data-v-0859cb0d="" class="product-name">Embodied Intelligence Dataset for Pharmaceutical Sorting</div><div data-v-0859cb0d="" class="product-intro">This multimodal embodied intelligence dataset targets pharmaceutical robotic sorting tasks in smart pharmacies and pharmaceutical distribution centers. It contains thousands of real-world manipulation episodes including RGB-D sequences, robot proprioceptive data, end-effector trajectories and fine-grained object annotations. The dataset covers various common pharmaceutical packaging forms under unstructured cluttered scenes. It supports training and benchmarking embodied large models, robotic manipulation policies, vision-language action agents for medical logistics automation.</div><div data-v-0859cb0d="" class="data-tags"><span data-v-0859cb0d="" class="data-tag">视觉数据</span><span data-v-0859cb0d="" class="data-tag">触觉数据</span><span data-v-0859cb0d="" class="data-tag">关节数据</span><span data-v-0859cb0d="" class="data-tag">文本数据</span><span data-v-0859cb0d="" class="data-tag format-tag">HDF5</span><span data-v-0859cb0d="" class="data-tag pricing-mode-tag"> 一口价 </span></div><div data-v-0859cb0d="" class="info-grid"><div data-v-0859cb0d="" class="info-cell"><div data-v-0859cb0d="" class="info-label">任务类型</div><div data-v-0859cb0d="" class="info-value">餐食准备</div></div><div data-v-0859cb0d="" class="info-cell"><div data-v-0859cb0d="" class="info-label">难度等级</div><div data-v-0859cb0d="" class="info-value">中等</div></div></div><div data-v-0859cb0d="" class="provider-section"><div data-v-0859cb0d="" class="provider-label">数据提供方</div><div data-v-0859cb0d="" class="provider-value">北京易通科技有限公司</div></div></div></div><!----><div class="el-loading-mask" style="display: none;"><div class="el-loading-spinner"><svg viewBox="25 25 50 50" class="circular"><circle cx="50" cy="50" r="20" fill="none" class="path"></circle></svg><!----></div></div></div>
+#app > div > div > div.product-grid-wrapper.with-header > div > div:nth-child(2) > div.product-grid
+
+立即下单
+<button data-v-cd7e8f86="" type="button" class="el-button el-button--primary el-button--mini"><!----><!----><span> 立即下单 </span></button>
+#app > div > div > div.detail-wrap > div.hero-section > div.hero-info > div.info-actions > button
+
+采购用途
+<input type="text" autocomplete="off" placeholder="请输入采购用途，如算法训练、模型验证、仿真测试等" class="el-input__inner">
+body > div:nth-child(4) > div > div.el-dialog__body > div > div:nth-child(2) > div.section-body > form > div:nth-child(2) > div:nth-child(1) > div > div > div > input
+
+期望交付时间
+<input type="text" autocomplete="off" name="" placeholder="请选择期望交付时间" class="el-input__inner">
+body > div:nth-child(4) > div > div.el-dialog__body > div > div:nth-child(2) > div.section-body > form > div:nth-child(2) > div:nth-child(2) > div > div > div > input
+
+采购数量
+<input type="text" autocomplete="off" max="9999" min="1" class="el-input__inner" role="spinbutton" aria-valuemax="9999" aria-valuemin="1" aria-valuenow="1" aria-disabled="false">
+body > div:nth-child(4) > div > div.el-dialog__body > div > div:nth-child(2) > div.section-body > form > div:nth-child(3) > div:nth-child(1) > div > div > div > div > div > input
+
+订单备注
+<textarea autocomplete="off" rows="3" placeholder="请输入订单备注" class="el-textarea__inner" style="min-height: 28.3333px;"></textarea>
+body > div:nth-child(4) > div > div.el-dialog__body > div > div:nth-child(2) > div.section-body > form > div.el-form-item.el-form-item--medium > div > div > textarea
+
+联系人（有默认值）
+<input type="text" autocomplete="off" placeholder="请输入联系人" class="el-input__inner">
+body > div:nth-child(4) > div > div.el-dialog__body > div > div:nth-child(2) > div.section-body > form > div:nth-child(5) > div:nth-child(1) > div > div > div > input
+
+联系电话（有默认值）
+<input type="text" autocomplete="off" placeholder="请输入联系电话" class="el-input__inner">
+body > div:nth-child(4) > div > div.el-dialog__body > div > div:nth-child(2) > div.section-body > form > div:nth-child(5) > div:nth-child(2) > div > div > div > div > input
+
+联系电话地区选择框
+<input type="text" readonly="readonly" autocomplete="off" placeholder="区号" class="el-input__inner">
+body > div:nth-child(4) > div > div.el-dialog__body > div > div:nth-child(2) > div.section-body > form > div:nth-child(5) > div:nth-child(2) > div > div > div > div > div > div > div.el-input.el-input--medium.el-input--suffix > input
+
+联系人邮箱（有默认值）
+<input type="text" autocomplete="off" placeholder="请输入联系人邮箱" class="el-input__inner">
+body > div:nth-child(4) > div > div.el-dialog__body > div > div:nth-child(2) > div.section-body > form > div:nth-child(6) > div > div > div > div > input
+
+取消按钮
+<button data-v-c51dd2a8="" type="button" class="el-button el-button--primary el-button--small"><!----><!----><span> 提交订单 </span></button>
+body > div:nth-child(4) > div > div.el-dialog__footer > button.el-button.el-button--primary.el-button--small
+
+提交订单按钮
+<button data-v-c51dd2a8="" type="button" class="el-button el-button--default el-button--small"><!----><!----><span>取消</span></button>
+body > div:nth-child(4) > div > div.el-dialog__footer > button.el-button.el-button--default.el-button--small
+
+返回列表（页面下方，需要鼠标悬停）
+<div data-v-cd7e8f86="" class="fab-back-btn"><span data-v-cd7e8f86="" class="fab-back-arrow"><svg data-v-cd7e8f86="" viewBox="0 0 1024 1024" width="10" height="10"><path data-v-cd7e8f86="" d="M669.392 968.496L256.8 575.04c-17.504-16.784-17.504-44.16 0-60.96L669.392 120.624c23.664-22.688 62.288-24.592 84.992-4.24 22.688 20.352 24.592 55.696 4.24 78.4L374.88 550.944h0.064l383.84 356.736c20.352 22.688 17.136 57.824-4.24 78.4-21.296 20.592-56.768 17.568-79.152-1.584z" fill="currentColor"></path></svg></span><span data-v-cd7e8f86="">返回列表</span></div>
+#app > div > div > div.fab-back-btn
+
+
+后台侧边栏
+<div class="el-submenu__title" style="padding-left: 20px; background-color: transparent;"><svg data-v-a3daf1e9="" aria-hidden="true" class="svg-icon"><use data-v-a3daf1e9="" href="#icon-nav-data (2)"></use></svg><span>数据产品交易<div class="el-badge todo-badge"><sup class="el-badge__content">1</sup></div></span><i class="el-submenu__icon-arrow el-icon-arrow-down"></i></div>
+#app > div > div.hasTagsView.main-container > div > div.el-scrollbar > div.scrollbar-wrapper.el-scrollbar__wrap > div > ul > div:nth-child(5) > li > div
+
+<li role="menuitem" tabindex="-1" class="el-menu-item" style="padding-left: 40px; background-color: transparent;"><span>数据交易市场</span></li>
+#app > div > div.hasTagsView.main-container > div > div.el-scrollbar > div.scrollbar-wrapper.el-scrollbar__wrap > div > ul > div:nth-child(5) > li > ul > div:nth-child(1) > a > li
+
+
+下单成功
+稍后前往
+<button data-v-cd7e8f86="" type="button" class="el-button el-button--default el-button--small"><!----><!----><span> 稍后前往 </span></button>
+#app > div > div > div.detail-wrap > div.el-dialog__wrapper > div > div.el-dialog__footer > span > button.el-button.el-button--default.el-button--small
+
+立即前往
+<button data-v-cd7e8f86="" type="button" class="el-button el-button--primary el-button--small"><!----><!----><span> 立即前往 </span></button>
+#app > div > div > div.detail-wrap > div.el-dialog__wrapper > div > div.el-dialog__footer > span > button.el-button.el-button--primary.el-button--small
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

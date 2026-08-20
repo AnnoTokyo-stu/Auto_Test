@@ -1,0 +1,30 @@
+1.用户界面进入按钮
+<div data-v-e8dd1f67="" class="user-menu el-dropdown"><button data-v-e8dd1f67="" type="button" class="user-trigger el-dropdown-selfdefine   " aria-haspopup="list" aria-controls="dropdown-menu-5174" role="button" tabindex="0"><span data-v-e8dd1f67="" class="user-name">AutoTest</span><i data-v-e8dd1f67="" class="el-icon-arrow-down"></i></button></div>
+#app > div > header > div > div > div
+此按钮出现用户名时测判定为登录成功
+
+2.进入后台管理页面按钮
+<li data-v-e8dd1f67="" tabindex="-1" class="el-dropdown-menu__item"><!----><i data-v-e8dd1f67="" class="el-icon-monitor"></i> 运营管理后台 </li>
+#dropdown-menu-5174 > li:nth-child(1)
+
+3.认证管理按钮（先测数据提供方认证）
+<div data-v-9be8b2bc="" class="auth-card"><div data-v-9be8b2bc="" class="icon-circle"><img data-v-9be8b2bc="" src="/assets/Personal-authentication.ae727a53.svg" alt="" class="auth-icon"></div><div data-v-9be8b2bc="" class="card-content"><div data-v-9be8b2bc="" class="card-title-row"><span data-v-9be8b2bc="" class="card-title">数据使用方认证</span><span data-v-9be8b2bc="" class="status-badge status-badge--default"> 未认证 </span></div><ul data-v-9be8b2bc="" class="card-desc-list"><li data-v-9be8b2bc=""> 1.适用于政府机构、企事业单位； </li><li data-v-9be8b2bc=""> 2.请准备好单位证件、法人代表身份证，如不是法人办理，还需准备法人签字盖章后的“授权书”； </li><li data-v-9be8b2bc=""> 3.自动审核0~3工作日，人工审核1~5工作日。 </li></ul></div></div>
+#app > div > div.hasTagsView.main-container > section > div > div.card-list > div:nth-child(1)
+
+侧边栏：
+4.同一身份认证
+<div class="el-submenu__title" style="padding-left: 20px; background-color: transparent;"><svg data-v-a3daf1e9="" aria-hidden="true" class="svg-icon"><use data-v-a3daf1e9="" href="#icon-nav-certify"></use></svg><span>统一身份认证</span><i class="el-submenu__icon-arrow el-icon-arrow-down"></i></div>
+#app > div > div.hasTagsView.main-container > div > div.el-scrollbar > div.scrollbar-wrapper.el-scrollbar__wrap > div > ul > div:nth-child(1) > li > div
+
+4.1 认证管理
+<li role="menuitem" tabindex="-1" class="el-menu-item is-active" style="padding-left: 40px; color: rgb(255, 255, 255); background-color: transparent;"><span>认证管理</span></li>
+#app > div > div.hasTagsView.main-container > div > div.el-scrollbar > div.scrollbar-wrapper.el-scrollbar__wrap > div > ul > div:nth-child(1) > li > ul > div > a > li
+
+5.我的消息
+<div class="el-submenu__title" style="padding-left: 20px; background-color: transparent;"><svg data-v-a3daf1e9="" aria-hidden="true" class="svg-icon"><use data-v-a3daf1e9="" href="#icon-nav-message (2)"></use></svg><span>我的消息</span><i class="el-submenu__icon-arrow el-icon-arrow-down"></i></div>
+#app > div > div.hasTagsView.main-container > div > div.el-scrollbar > div.scrollbar-wrapper.el-scrollbar__wrap > div > ul > div:nth-child(2) > li > div
+
+5.1 消息代办管理
+<li role="menuitem" tabindex="-1" class="el-menu-item" style="padding-left: 40px; background-color: transparent; color: rgb(255, 255, 255);"><span>消息待办管理</span></li>
+#app > div > div.hasTagsView.main-container > div > div.el-scrollbar > div.scrollbar-wrapper.el-scrollbar__wrap > div > ul > div:nth-child(2) > li > ul > div > a > li
+

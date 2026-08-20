@@ -1,0 +1,19 @@
+[
+  {
+    "case_id": "WEB-074",
+    "selections": [
+      {
+        "scenario": "read_message",
+        "status": "已读",
+        "message_id": "",
+        "title_contains": ""
+      },
+      {
+        "scenario": "unread_message",
+        "status": "未读",
+        "message_id": "",
+        "title_contains": ""
+      }
+    ]
+  }
+]

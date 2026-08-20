@@ -1,0 +1,36 @@
+数据产品交易
+<div class="el-submenu__title" style="padding-left: 20px; background-color: transparent;"><svg data-v-a3daf1e9="" aria-hidden="true" class="svg-icon"><use data-v-a3daf1e9="" href="#icon-nav-data (2)"></use></svg><span>数据产品交易<div class="el-badge todo-badge"><sup class="el-badge__content">1</sup></div></span><i class="el-submenu__icon-arrow el-icon-arrow-down"></i></div>
+#app > div > div.hasTagsView.main-container > div > div.el-scrollbar > div.scrollbar-wrapper.el-scrollbar__wrap > div > ul > div:nth-child(6) > li > div
+
+数据产品审核
+<li role="menuitem" tabindex="-1" class="el-menu-item is-active" style="padding-left: 40px; background-color: transparent; color: rgb(255, 255, 255);"><span>数据产品审核<div class="el-badge todo-badge"><sup class="el-badge__content">1</sup></div></span></li>
+#app > div > div.hasTagsView.main-container > div > div.el-scrollbar > div.scrollbar-wrapper.el-scrollbar__wrap > div > ul > div:nth-child(6) > li > ul > div:nth-child(2) > a > li > span
+
+查看
+<span> 查看详情 </span>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div > div > div > div.el-table.el-table--fit.el-table--scrollable-x.el-table--enable-row-transition.el-table--small > div.el-table__fixed-right > div.el-table__fixed-body-wrapper > table > tbody > tr:nth-child(1) > td.el-table_4_column_40.is-center.el-table__cell > div > span > button:nth-child(1) > span
+
+关闭查看界面
+<button data-v-546d6a26="" type="button" class="el-button el-button--default el-button--small"><!----><!----><span>关闭</span></button>
+body > div:nth-child(10) > div > div.el-dialog__footer > button
+
+
+审核
+<span> 审核 </span>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div > div > div > div.el-table.el-table--fit.el-table--scrollable-x.el-table--enable-row-transition.el-table--small > div.el-table__fixed-right > div.el-table__fixed-body-wrapper > table > tbody > tr:nth-child(1) > td.el-table_4_column_40.is-center.el-table__cell > div > span > button:nth-child(2) > span
+
+审核结果
+<div class="el-form-item__content" style="margin-left: 80px;"><div data-v-7c4ec0cf="" role="radiogroup" class="el-radio-group"><label data-v-7c4ec0cf="" role="radio" aria-checked="true" tabindex="0" class="el-radio is-checked"><span class="el-radio__input is-checked"><span class="el-radio__inner"></span><input type="radio" aria-hidden="true" tabindex="-1" autocomplete="off" class="el-radio__original" value="PASS"></span><span class="el-radio__label">通过<!----></span></label><label data-v-7c4ec0cf="" role="radio" tabindex="-1" class="el-radio"><span class="el-radio__input"><span class="el-radio__inner"></span><input type="radio" aria-hidden="true" tabindex="-1" autocomplete="off" class="el-radio__original" value="REJECT"></span><span class="el-radio__label">不通过<!----></span></label></div><!----></div>
+body > div.el-dialog__wrapper.data-asset-trade-page > div > div.el-dialog__body > div > div.section-body > form > div.el-form-item.is-required.el-form-item--small > div
+
+审核意见
+<textarea autocomplete="off" rows="4" placeholder="请输入审核意见" maxlength="500" class="el-textarea__inner" style="min-height: 27.3333px;"></textarea>
+body > div.el-dialog__wrapper.data-asset-trade-page > div > div.el-dialog__body > div > div.section-body > form > div:nth-child(2) > div > div > textarea
+
+取消
+<button type="button" class="el-button el-button--default el-button--small"><!----><!----><span>取消</span></button>
+body > div.el-dialog__wrapper.data-asset-trade-page > div > div.el-dialog__footer > button.el-button.el-button--default.el-button--small
+
+提交审核结果
+<button type="button" class="el-button el-button--primary el-button--small"><!----><!----><span> 提交审核结果 </span></button>
+body > div.el-dialog__wrapper.data-asset-trade-page > div > div.el-dialog__footer > button.el-button.el-button--primary.el-button--small

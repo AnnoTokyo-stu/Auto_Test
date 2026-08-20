@@ -1,0 +1,300 @@
+数据产品交易下拉框
+<div class="el-submenu__title" style="padding-left: 20px; background-color: transparent;"><svg data-v-a3daf1e9="" aria-hidden="true" class="svg-icon"><use data-v-a3daf1e9="" href="#icon-nav-data (2)"></use></svg><span>数据产品交易<div class="el-badge todo-badge"><sup class="el-badge__content">1</sup></div></span><i class="el-submenu__icon-arrow el-icon-arrow-down"></i></div>
+#app > div > div.hasTagsView.main-container > div > div.el-scrollbar > div.scrollbar-wrapper.el-scrollbar__wrap > div > ul > div:nth-child(6) > li > div
+
+数据产品管理进入按钮
+<li role="menuitem" tabindex="-1" class="el-menu-item is-active" style="padding-left: 40px; background-color: transparent; color: rgb(255, 255, 255);"><span>数据产品管理</span></li>
+#app > div > div.hasTagsView.main-container > div > div.el-scrollbar > div.scrollbar-wrapper.el-scrollbar__wrap > div > ul > div:nth-child(6) > li > ul > div:nth-child(1) > a > li
+
+产品名称
+<input type="text" autocomplete="off" placeholder="请输入产品名称" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(2) > div > form > div.form-items-wrapper > div:nth-child(1) > div > div > input
+
+产品编号
+<input type="text" autocomplete="off" placeholder="请输入产品编号" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(2) > div > form > div.form-items-wrapper > div:nth-child(2) > div > div > input
+
+（以下可选内容看图）
+业务场景分类
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(2) > div > form > div.form-items-wrapper > div:nth-child(3) > div > div > div.el-input.el-input--small.el-input--suffix > input
+
+任务类型（此处要先选择场景后，才可以选择任务类型）
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(2) > div > form > div.form-items-wrapper > div:nth-child(4) > div > div > div.el-input.el-input--small.el-input--suffix > input
+
+产品状态
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(2) > div > form > div.form-items-wrapper > div:nth-child(5) > div > div > div > input
+
+审核状态
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(2) > div > form > div.form-items-wrapper > div:nth-child(6) > div > div > div > input
+
+数据格式
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(2) > div > form > div.form-items-wrapper > div:nth-child(7) > div > div > div > input
+
+难度等级
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(2) > div > form > div.form-items-wrapper > div:nth-child(8) > div > div > div > input
+
+包含数据类型
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(2) > div > form > div.form-items-wrapper > div:nth-child(9) > div > div > div > input
+
+计价模式
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(2) > div > form > div.form-items-wrapper > div:nth-child(10) > div > div > div > input
+
+查询
+<button data-v-5c593961="" type="button" class="el-button el-button--primary el-button--small"><!----><!----><span><svg data-v-a3daf1e9="" data-v-5c593961="" aria-hidden="true" class="svg-icon"><use data-v-a3daf1e9="" href="#icon-search"></use></svg><span data-v-5c593961="">查询</span></span></button>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(2) > div > form > div.el-row > div > div > button:nth-child(1)
+
+重置
+<button data-v-5c593961="" type="button" class="el-button el-button--default el-button--small"><!----><!----><span><svg data-v-a3daf1e9="" data-v-5c593961="" aria-hidden="true" class="svg-icon"><use data-v-a3daf1e9="" href="#icon-refresh"></use></svg><span data-v-5c593961="">重置</span></span></button>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(2) > div > form > div.el-row > div > div > button.el-button.el-button--default.el-button--small
+
+新增
+<button data-v-205fc90c="" type="button" class="el-button el-button--primary el-button--small"><!----><i class="el-icon-plus"></i><span> 新增数据产品 </span></button>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(2) > div > form > div.el-row > div > div > button:nth-child(4)
+
+查看
+<span> 查看 </span>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div > div > div > div.el-table.el-table--fit.el-table--scrollable-x.el-table--enable-row-transition.el-table--small > div.el-table__fixed-right > div.el-table__fixed-body-wrapper > table > tbody > tr > td.el-table_3_column_47.is-center.el-table__cell > div > span > button:nth-child(1) > span
+
+下架
+<span> 下架 </span>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div > div > div > div.el-table.el-table--fit.el-table--scrollable-x.el-table--enable-row-transition.el-table--small > div.el-table__fixed-right > div.el-table__fixed-body-wrapper > table > tbody > tr > td.el-table_3_column_47.is-center.el-table__cell > div > span > button:nth-child(2) > span
+
+审核记录
+<span> 审核记录 </span>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div > div > div > div.el-table.el-table--fit.el-table--scrollable-x.el-table--enable-row-transition.el-table--small > div.el-table__fixed-right > div.el-table__fixed-body-wrapper > table > tbody > tr > td.el-table_3_column_47.is-center.el-table__cell > div > span > button:nth-child(3) > span
+
+审核记录关闭
+<button data-v-da0e7a87="" type="button" class="el-button el-button--primary el-button--small"><!----><!----><span> 关闭 </span></button>
+body > div:nth-child(19) > div > div.el-dialog__footer > button
+
+（产品操作栏的内容还有刚添加，待审核，已下架等状态，你先多创建几个产品，然后再交给我调试状态后再定位那些内容）
+
+数据产品新增界面
+产品名称
+<input type="text" autocomplete="off" placeholder="请输入产品名称" class="el-input__inner">
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(1) > div.section-body > div.el-row > div:nth-child(1) > div > div > div > input
+
+产品版本（默认1.0）
+<input type="text" autocomplete="off" placeholder="请输入产品版本" class="el-input__inner">
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(1) > div.section-body > div.el-row > div:nth-child(2) > div > div > div > input
+
+产品封面图
+<div tabindex="0" class="el-upload el-upload--picture-card"><i data-v-fc267bb5="" class="el-icon-plus"></i><input type="file" name="file" accept=".jpg,.jpeg,.png" class="el-upload__input"></div>
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(1) > div.section-body > div:nth-child(2) > div > div > div > div > div
+
+产品图片
+<div tabindex="0" class="el-upload el-upload--picture-card"><i data-v-fc267bb5="" class="el-icon-plus"></i><input type="file" name="file" multiple="multiple" accept=".jpg,.jpeg,.png" class="el-upload__input"></div>
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(1) > div.section-body > div:nth-child(3) > div > div > div > div > div
+
+产品简介
+<textarea autocomplete="off" rows="3" placeholder="请输入产品简介" class="el-textarea__inner" style="min-height: 27.3333px;"></textarea>
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(1) > div.section-body > div:nth-child(4) > div > div > textarea
+
+业务场景分类
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择业务场景分类" class="el-input__inner">
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(2) > div.section-body > div.el-row > div:nth-child(1) > div > div > div > div > input
+
+任务类型
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择任务类型" class="el-input__inner">
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(2) > div.section-body > div.el-row > div:nth-child(2) > div > div > div > div.el-input.el-input--small.el-input--suffix > input
+
+难度等级
+<div data-v-25df7e18="" class="el-form-item is-required el-form-item--small"><label for="difficultyLevel" class="el-form-item__label">难度等级</label><div class="el-form-item__content"><div data-v-25df7e18="" role="radiogroup" class="el-radio-group"><label data-v-25df7e18="" role="radio" tabindex="0" class="el-radio"><span class="el-radio__input"><span class="el-radio__inner"></span><input type="radio" aria-hidden="true" tabindex="-1" autocomplete="off" class="el-radio__original" value="SIMPLE"></span><span class="el-radio__label"> 简单 <!----></span></label><label data-v-25df7e18="" role="radio" tabindex="-1" class="el-radio"><span class="el-radio__input"><span class="el-radio__inner"></span><input type="radio" aria-hidden="true" tabindex="-1" autocomplete="off" class="el-radio__original" value="MEDIUM"></span><span class="el-radio__label"> 中等 <!----></span></label><label data-v-25df7e18="" role="radio" tabindex="-1" class="el-radio"><span class="el-radio__input"><span class="el-radio__inner"></span><input type="radio" aria-hidden="true" tabindex="-1" autocomplete="off" class="el-radio__original" value="DIFFICULT"></span><span class="el-radio__label"> 困难 <!----></span></label></div><!----></div></div>
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(2) > div.section-body > div.el-form-item.is-required.el-form-item--small
+
+场景描述
+<textarea autocomplete="off" rows="3" placeholder="请输入场景描述" class="el-textarea__inner" style="min-height: 27.3333px;"></textarea>
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(2) > div.section-body > div:nth-child(3) > div > div > textarea
+
+任务目标说明
+<textarea autocomplete="off" rows="3" placeholder="请输入任务目标说明" class="el-textarea__inner" style="min-height: 27.3333px;"></textarea>
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(2) > div.section-body > div:nth-child(4) > div > div > textarea
+
+压缩包包含数据类型：
+<div data-v-25df7e18="" class="el-form-item is-required el-form-item--small"><label for="packageDataTypes" class="el-form-item__label">压缩包包含数据类型</label><div class="el-form-item__content"><div data-v-25df7e18="" role="group" aria-label="checkbox-group" class="el-checkbox-group"><label data-v-25df7e18="" class="el-checkbox el-checkbox--small is-bordered"><span class="el-checkbox__input"><span class="el-checkbox__inner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="TACTILE_DATA"></span><span class="el-checkbox__label"> 触觉数据 <!----></span></label><label data-v-25df7e18="" class="el-checkbox el-checkbox--small is-bordered"><span class="el-checkbox__input"><span class="el-checkbox__inner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="VISUAL_DATA"></span><span class="el-checkbox__label"> 视觉数据 <!----></span></label><label data-v-25df7e18="" class="el-checkbox el-checkbox--small is-bordered"><span class="el-checkbox__input"><span class="el-checkbox__inner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="JOINT_DATA"></span><span class="el-checkbox__label"> 关节数据 <!----></span></label><label data-v-25df7e18="" class="el-checkbox el-checkbox--small is-bordered"><span class="el-checkbox__input"><span class="el-checkbox__inner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="TEXT_DATA"></span><span class="el-checkbox__label"> 文本数据 <!----></span></label><label data-v-25df7e18="" class="el-checkbox el-checkbox--small is-bordered"><span class="el-checkbox__input"><span class="el-checkbox__inner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="VOICE_DATA"></span><span class="el-checkbox__label"> 语音数据 <!----></span></label><label data-v-25df7e18="" class="el-checkbox el-checkbox--small is-bordered"><span class="el-checkbox__input"><span class="el-checkbox__inner"></span><input type="checkbox" aria-hidden="false" class="el-checkbox__original" value="OTHER_DATA"></span><span class="el-checkbox__label"> 其它数据 <!----></span></label></div><!----></div></div>
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(3) > div.section-body > div.el-form-item.is-required.el-form-item--small
+
+样例数据文件
+<div tabindex="0" class="el-upload el-upload--picture-card"><i data-v-fc267bb5="" class="el-icon-plus"></i><input type="file" name="file" accept=".pdf,.doc,.docx,.xls,.xlsx,.png,.jpg,.jpeg,.csv" class="el-upload__input"></div>
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(3) > div.section-body > div:nth-child(2) > div > div > div.d-uploader.flex > div > div
+
+数据说明文档
+<div tabindex="0" class="el-upload el-upload--picture-card"><i data-v-fc267bb5="" class="el-icon-plus"></i><input type="file" name="file" accept=".pdf,.doc,.docx,.xls,.xlsx,.png,.jpg,.jpeg,.csv" class="el-upload__input"></div>
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(3) > div.section-body > div:nth-child(3) > div > div > div.d-uploader.flex > div > div
+
+数据格式
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择数据格式" class="el-input__inner">
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(4) > div.section-body > div.el-row > div:nth-child(1) > div > div > div > div > input
+
+标注情况（未标注、部分标注、已标注、不涉及）
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择标注情况" class="el-input__inner">
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(4) > div.section-body > div.el-row > div:nth-child(2) > div > div > div > div > input
+
+标注内容说明
+<textarea autocomplete="off" rows="3" placeholder="请输入标注内容说明" class="el-textarea__inner" style="min-height: 27.3333px;"></textarea>
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(4) > div.section-body > div:nth-child(2) > div > div > textarea
+
+数据质量说明
+<textarea autocomplete="off" rows="3" placeholder="请输入数据质量说明" class="el-textarea__inner" style="min-height: 27.3333px;"></textarea>
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(4) > div.section-body > div:nth-child(3) > div > div > textarea
+
+字段结构说明
+<textarea autocomplete="off" rows="3" placeholder="请输入字段结构说明" class="el-textarea__inner" style="min-height: 27.3333px;"></textarea>
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(4) > div.section-body > div:nth-child(4) > div > div > textarea
+
+计价模式（默认一口价）
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择计价模式" class="el-input__inner">
+body > div:nth-child(21) > div > div.el-dialog__body > div > form > div:nth-child(5) > div.section-body > div.el-row > div:nth-child(1) > div > div > div > div > input
+
+币种（默认CNY，有CNY、EUR、USD）
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择币种" class="el-input__inner">
+body > div:nth-child(21) > div > div.el-dialog__body > div > form > div:nth-child(5) > div.section-body > div.el-row > div:nth-child(2) > div > div > div > div > input
+
+固定价格
+<input type="text" autocomplete="off" placeholder="请输入固定价格" class="el-input__inner">
+body > div:nth-child(21) > div > div.el-dialog__body > div > form > div:nth-child(5) > div.section-body > div.form-section > div > div.content > div.el-row > div.el-col.el-col-8 > div > div > div > input
+
+价格说明
+<textarea autocomplete="off" rows="2" placeholder="请输入价格说明" class="el-textarea__inner" style="min-height: 27.3333px;"></textarea>
+body > div:nth-child(21) > div > div.el-dialog__body > div > form > div:nth-child(5) > div.section-body > div.form-section > div > div.content > div.el-row > div.el-col.el-col-16 > div > div > div > textarea
+
+交付周期（一次性交付、按批次交付）
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择交付周期" class="el-input__inner">
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(6) > div.section-body > div > div:nth-child(1) > div > div > div > div > input
+
+选择合规策略模版（测试模版、测试模版2、测试模版3）
+<input type="text" autocomplete="off" placeholder="请选择" class="el-input__inner" readonly="readonly">
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(6) > div.section-body > div > div:nth-child(2) > div > div > div > div > input
+
+附件材料
+<div tabindex="0" class="el-upload el-upload--picture-card"><i data-v-fc267bb5="" class="el-icon-plus"></i><input type="file" name="file" accept=".jpg,.jpeg,.png,.pdf, .xls, .xlsx, .docx, .doc" class="el-upload__input"></div>
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(7) > div.section-body > div > div > div > div > div > div
+
+业务联系人（默认余小杰）
+<input type="text" autocomplete="off" placeholder="请输入业务联系人" class="el-input__inner">
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(8) > div.section-body > div:nth-child(1) > div:nth-child(1) > div > div > div > input
+
+联系邮箱（默认320683854@qq.com）
+<input type="text" autocomplete="off" placeholder="请输入联系邮箱" class="el-input__inner">
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(8) > div.section-body > div:nth-child(1) > div:nth-child(2) > div > div > div > input
+
+电话地区选择
+<input type="text" autocomplete="off" placeholder="区号" class="el-input__inner" readonly="readonly">
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(8) > div.section-body > div:nth-child(2) > div > div > div > div > div > div > div > div > input
+
+联系电话（13112345678）
+<input type="text" autocomplete="off" placeholder="请输入联系电话" class="el-input__inner">
+body > div:nth-child(20) > div > div.el-dialog__body > div > form > div:nth-child(8) > div.section-body > div:nth-child(2) > div > div > div > div > div > input
+
+
+
+新增定位：
+查看
+<span> 查看 </span>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div > div > div > div.el-table.el-table--fit.el-table--scrollable-x.el-table--enable-row-transition.el-table--small > div.el-table__fixed-right > div.el-table__fixed-body-wrapper > table > tbody > tr:nth-child(2) > td.el-table_2_column_30.is-center.el-table__cell > div > span > button:nth-child(1) > span
+
+返回列表（需要鼠标悬停）
+<div data-v-cd7e8f86="" class="fab-back-btn"><span data-v-cd7e8f86="" class="fab-back-arrow"><svg data-v-cd7e8f86="" viewBox="0 0 1024 1024" width="10" height="10"><path data-v-cd7e8f86="" d="M669.392 968.496L256.8 575.04c-17.504-16.784-17.504-44.16 0-60.96L669.392 120.624c23.664-22.688 62.288-24.592 84.992-4.24 22.688 20.352 24.592 55.696 4.24 78.4L374.88 550.944h0.064l383.84 356.736c20.352 22.688 17.136 57.824-4.24 78.4-21.296 20.592-56.768 17.568-79.152-1.584z" fill="currentColor"></path></svg></span><span data-v-cd7e8f86="">返回列表</span></div>
+#app > div > div.hasTagsView.main-container > section > div > div.fab-back-btn
+
+编辑
+<button data-v-205fc90c="" type="button" class="el-button el-button--text el-button--small"><!----><!----><span> 编辑 </span></button>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div > div > div > div.el-table.el-table--fit.el-table--scrollable-x.el-table--enable-row-transition.el-table--small > div.el-table__fixed-right > div.el-table__fixed-body-wrapper > table > tbody > tr:nth-child(2) > td.el-table_4_column_60.is-center.el-table__cell > div > span > button:nth-child(2)
+
+编辑取消
+<button data-v-25df7e18="" type="button" class="el-button el-button--default el-button--small"><!----><!----><span>取消</span></button>
+body > div.el-dialog__wrapper.data-asset-trade-page > div > div.el-dialog__footer > button.el-button.el-button--default.el-button--small
+
+编辑保存草稿（需要确实修改某项内容才能点击此按钮）
+<button data-v-25df7e18="" type="button" class="el-button el-button--primary el-button--small is-plain"><!----><!----><span> 保存草稿 </span></button>
+body > div.el-dialog__wrapper.data-asset-trade-page > div > div.el-dialog__footer > button.el-button.el-button--primary.el-button--small.is-plain
+
+编辑提交审核（需要确实修改某项内容才能点击此按钮）
+<button data-v-25df7e18="" type="button" class="el-button el-button--primary el-button--small"><!----><!----><span> 提交审核 </span></button>
+body > div.el-dialog__wrapper.data-asset-trade-page > div > div.el-dialog__footer > button:nth-child(3)
+
+提交审核
+<span> 提交审核 </span>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div > div > div > div.el-table.el-table--fit.el-table--scrollable-x.el-table--enable-row-transition.el-table--small > div.el-table__fixed-right > div.el-table__fixed-body-wrapper > table > tbody > tr:nth-child(2) > td.el-table_2_column_30.is-center.el-table__cell > div > span > button:nth-child(3) > span
+
+删除
+<span> 删除 </span>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div > div > div > div.el-table.el-table--fit.el-table--scrollable-x.el-table--enable-row-transition.el-table--small > div.el-table__fixed-right > div.el-table__fixed-body-wrapper > table > tbody > tr:nth-child(2) > td.el-table_4_column_60.is-center.el-table__cell > div > span > button:nth-child(4) > span
+
+审核窗口-确认
+<button type="button" class="el-button el-button--default el-button--small el-button--primary "><!----><!----><span>
+          确定
+        </span></button>
+body > div.el-message-box__wrapper > div > div.el-message-box__btns > button.el-button.el-button--default.el-button--small.el-button--primary
+
+审核窗口-取消
+<button type="button" class="el-button el-button--default el-button--small"><!----><!----><span>
+          取消
+        </span></button>
+body > div.el-message-box__wrapper > div > div.el-message-box__btns > button:nth-child(1)
+
+撤回审核
+<span> 撤回审核 </span>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div > div > div > div.el-table.el-table--fit.el-table--scrollable-x.el-table--enable-row-transition.el-table--small > div.el-table__fixed-right > div.el-table__fixed-body-wrapper > table > tbody > tr:nth-child(1) > td.el-table_2_column_30.is-center.el-table__cell > div > span > button:nth-child(2) > span
+
+上架
+<span> 上架 </span>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div > div > div > div.el-table.el-table--fit.el-table--scrollable-x.el-table--enable-row-transition.el-table--small > div.el-table__fixed-right > div.el-table__fixed-body-wrapper > table > tbody > tr:nth-child(4) > td.el-table_4_column_60.is-center.el-table__cell > div > span > button:nth-child(3) > span
+
+变更
+<span> 变更 </span>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div > div > div > div.el-table.el-table--fit.el-table--scrollable-x.el-table--enable-row-transition.el-table--small > div.el-table__fixed-right > div.el-table__fixed-body-wrapper > table > tbody > tr:nth-child(4) > td.el-table_4_column_60.is-center.el-table__cell > div > span > button:nth-child(4) > span
+
+变更-取消
+<button data-v-25df7e18="" type="button" class="el-button el-button--default el-button--small"><!----><!----><span>取消</span></button>
+body > div.el-dialog__wrapper.data-asset-trade-page > div > div.el-dialog__footer > button.el-button.el-button--default.el-button--small
+
+变更-提交数据审核（需要确实修改某项内容才能点击此按钮）
+<button data-v-25df7e18="" type="button" class="el-button el-button--primary el-button--small"><!----><!----><span> 提交审核 </span></button>
+body > div.el-dialog__wrapper.data-asset-trade-page > div > div.el-dialog__footer > button.el-button.el-button--primary.el-button--small
+
+作废
+<span> 作废 </span>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div > div > div > div.el-table.el-table--fit.el-table--scrollable-x.el-table--enable-row-transition.el-table--small > div.el-table__fixed-right > div.el-table__fixed-body-wrapper > table > tbody > tr:nth-child(4) > td.el-table_4_column_60.is-center.el-table__cell > div > span > button:nth-child(5) > span
+
+点击审核后跳转到超级管理员的数据产品交易-数据产品审核界面
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

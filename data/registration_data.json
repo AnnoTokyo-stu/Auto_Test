@@ -1,0 +1,10 @@
+[
+  {
+    "case_id": "WEB-001",
+    "account": "${WEB_REGISTRATION_ACCOUNT}",
+    "password": "${WEB_REGISTRATION_PASSWORD}",
+    "name": "${WEB_REGISTRATION_NAME}",
+    "phone": "${WEB_REGISTRATION_PHONE}",
+    "email": "${WEB_REGISTRATION_EMAIL}"
+  }
+]

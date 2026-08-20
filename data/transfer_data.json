@@ -1,0 +1,62 @@
+[
+  {
+    "case_id": "WEB-054",
+    "scenario": "valid_certificate_and_route",
+    "asset_id": "${TEST_ASSET_ID}",
+    "certificate": "__TO_BE_CONFIRMED__",
+    "route": "__TO_BE_CONFIRMED__",
+    "transfer_method": "__TO_BE_CONFIRMED__",
+    "expected_allowed": true
+  },
+  {
+    "case_id": "WEB-054",
+    "scenario": "expired_certificate",
+    "asset_id": "${TEST_ASSET_ID}",
+    "certificate": "__TO_BE_CONFIRMED__",
+    "route": "__TO_BE_CONFIRMED__",
+    "transfer_method": "__TO_BE_CONFIRMED__",
+    "expected_allowed": false
+  },
+  {
+    "case_id": "WEB-054",
+    "scenario": "unauthorized_asset",
+    "asset_id": "__TO_BE_CONFIRMED__",
+    "certificate": "__TO_BE_CONFIRMED__",
+    "route": "__TO_BE_CONFIRMED__",
+    "transfer_method": "__TO_BE_CONFIRMED__",
+    "expected_allowed": false
+  },
+  {
+    "case_id": "WEB-054",
+    "scenario": "invalid_route",
+    "asset_id": "${TEST_ASSET_ID}",
+    "certificate": "__TO_BE_CONFIRMED__",
+    "route": "__TO_BE_CONFIRMED__",
+    "transfer_method": "__TO_BE_CONFIRMED__",
+    "expected_allowed": false
+  },
+  {
+    "case_id": "WEB-055",
+    "order_id": "${TEST_TRANSFER_ID}",
+    "completed_order_id": "${TEST_COMPLETED_TRANSFER_ID}",
+    "processing_status": "__TO_BE_CONFIRMED__",
+    "terminal_statuses": ["__TO_BE_CONFIRMED__"]
+  },
+  {
+    "case_id": "WEB-065",
+    "business_id": "${TEST_ARCHIVE_BUSINESS_ID}",
+    "expected_evidence_type": "__TO_BE_CONFIRMED__",
+    "evidence_id_pattern": "^[0-9a-fA-F]{32}$"
+  },
+  {
+    "case_id": "WEB-069",
+    "business_id": "${TEST_ARCHIVE_BUSINESS_ID}",
+    "declaration_id": "${TEST_DECLARATION_ID}",
+    "contract_id": "${TEST_CONTRACT_ID}",
+    "order_id": "${TEST_ORDER_ID}",
+    "payment_id": "${TEST_PAYMENT_ID}",
+    "transfer_id": "${TEST_TRANSFER_ID}",
+    "evidence_id": "${TEST_EVIDENCE_ID}",
+    "completed_status": "__TO_BE_CONFIRMED__"
+  }
+]

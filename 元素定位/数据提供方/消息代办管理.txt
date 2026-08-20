@@ -1,0 +1,112 @@
+消息管理
+切换按钮
+<div id="tab-message" aria-controls="pane-message" role="tab" aria-selected="true" tabindex="0" class="el-tabs__item is-top is-active">消息管理</div>
+#tab-message
+
+标题输入
+<input type="text" autocomplete="off" maxlength="30" placeholder="请输入 标题" class="el-input__inner">
+#pane-message > div > div.page-header > form > div:nth-child(1) > div > div > input
+
+发送开始时间
+<input autocomplete="off" placeholder="开始时间" name="" class="el-range-input">
+#pane-message > div > div.page-header > form > div:nth-child(2) > div > div > input:nth-child(2)
+
+发送结束时间
+<input autocomplete="off" placeholder="结束时间" name="" class="el-range-input">
+#pane-message > div > div.page-header > form > div:nth-child(2) > div > div > input:nth-child(4)
+
+状态选择（已读/未读）
+<input type="text" readonly="readonly" autocomplete="off" placeholder="全部" class="el-input__inner">
+#pane-message > div > div.page-header > form > div:nth-child(3) > div > div > div.el-input.el-input--small.el-input--suffix > input
+
+查询按钮
+<button data-v-fedb7538="" type="button" class="el-button el-button--primary el-button--small"><!----><!----><span><svg data-v-a3daf1e9="" data-v-fedb7538="" aria-hidden="true" class="svg-icon"><use data-v-a3daf1e9="" href="#icon-search"></use></svg><span data-v-fedb7538="">查询</span></span></button>
+#pane-message > div > div.page-header > form > div:nth-child(3) > div > div > div.el-input.el-input--small.el-input--suffix > input
+
+重置
+<button data-v-fedb7538="" type="button" class="el-button el-button--default el-button--small"><!----><!----><span><svg data-v-a3daf1e9="" data-v-fedb7538="" aria-hidden="true" class="svg-icon"><use data-v-a3daf1e9="" href="#icon-refresh"></use></svg><span data-v-fedb7538="">重置</span></span></button>
+#pane-message > div > div.page-header > form > div.btn-wrap > button.el-button.el-button--default.el-button--small
+
+全部已读（尝试设计为测试时仅测试按钮能否正常实现功能，但不要真实改变消息状态，以避免后续测试失败）
+<button data-v-c72fd0e4="" type="button" class="el-button el-button--primary el-button--small" data-v-fedb7538=""><!----><!----><span>全部已读</span></button>
+#pane-message > div > div.page-header > form > div.btn-wrap > button:nth-child(3)
+
+已读消息详情按钮
+<span>详情</span>
+#pane-message > div > div.page-main > div.el-table.el-table--fit.el-table--enable-row-hover.el-table--enable-row-transition.el-table--small > div.el-table__body-wrapper.is-scrolling-none > table > tbody > tr:nth-child(1) > td.el-table_13_column_112.el-table__cell > div > button > span
+
+未读消息详情按钮
+<span>详情</span>
+#pane-message > div > div.page-main > div.el-table.el-table--fit.el-table--enable-row-hover.el-table--enable-row-transition.el-table--small > div.el-table__body-wrapper.is-scrolling-none > table > tbody > tr:nth-child(3) > td.el-table_13_column_112.el-table__cell > div > button > span
+
+详情窗口-点击查看（点击查看后从http://border.embodatadeglobal.com:18080/message/index跳转到http://border.embodatadeglobal.com:18080/ComplianceAS/security-evaluation/declaration-contract）
+<button data-v-ecae93ec="" type="button" class="el-button el-button--primary el-button--small"><!----><!----><span>点击查看</span></button>
+#pane-message > div > div.el-dialog__wrapper > div > div.el-dialog__body > button
+
+代办管理
+切换按钮
+<div id="tab-todo" aria-controls="pane-todo" role="tab" tabindex="-1" class="el-tabs__item is-top">待办管理</div>
+#tab-todo
+
+标题输入
+<input type="text" autocomplete="off" maxlength="30" placeholder="请输入 待办标题" class="el-input__inner">
+#pane-todo > div > div.page-header > form > div:nth-child(1) > div > div > input
+
+发送开始时间
+<input autocomplete="off" placeholder="开始时间" name="" class="el-range-input">
+#pane-todo > div > div.page-header > form > div:nth-child(2) > div > div > input:nth-child(2)
+
+发送结束时间
+<input autocomplete="off" placeholder="结束时间" name="" class="el-range-input">
+#pane-todo > div > div.page-header > form > div:nth-child(2) > div > div > input:nth-child(4)
+
+状态选择（已处理/未处理）
+<input type="text" readonly="readonly" autocomplete="off" placeholder="全部" class="el-input__inner">
+#pane-todo > div > div.page-header > form > div:nth-child(3) > div > div > div.el-input.el-input--small.el-input--suffix > input
+
+查询按钮
+<button data-v-fedb7538="" type="button" class="el-button el-button--primary el-button--small"><!----><!----><span><svg data-v-a3daf1e9="" data-v-fedb7538="" aria-hidden="true" class="svg-icon"><use data-v-a3daf1e9="" href="#icon-search"></use></svg><span data-v-fedb7538="">查询</span></span></button>
+#pane-todo > div > div.page-header > form > div.btn-wrap > button.el-button.el-button--primary.el-button--small
+
+重置
+<button data-v-fedb7538="" type="button" class="el-button el-button--default el-button--small"><!----><!----><span><svg data-v-a3daf1e9="" data-v-fedb7538="" aria-hidden="true" class="svg-icon"><use data-v-a3daf1e9="" href="#icon-refresh"></use></svg><span data-v-fedb7538="">重置</span></span></button>
+#pane-todo > div > div.page-header > form > div.btn-wrap > button.el-button.el-button--default.el-button--small
+
+待办详情按钮
+<span> 详情 </span>
+#pane-todo > div > div.page-main > div.el-table.el-table--fit.el-table--enable-row-hover.el-table--enable-row-transition.el-table--small > div.el-table__body-wrapper.is-scrolling-none > table > tbody > tr > td.el-table_20_column_158.el-table__cell > div > button:nth-child(1) > span
+
+详情页内待办去处理按钮（点击后跳转到产品订单管理从http://border.embodatadeglobal.com:18080/message/index?tab=todo跳转到http://border.embodatadeglobal.com:18080/dataAssetTrade/product-order）
+<button data-v-ed782cb2="" type="button" class="el-button el-button--primary el-button--small"><!----><!----><span>去处理</span></button>
+#pane-todo > div > div:nth-child(3) > div > div.el-dialog__body > button
+
+待办去处理按钮（点击后跳转到产品订单管理从http://border.embodatadeglobal.com:18080/message/index?tab=todo跳转到http://border.embodatadeglobal.com:18080/dataAssetTrade/product-order）
+<span> 去处理 </span>
+#pane-todo > div > div.page-main > div.el-table.el-table--fit.el-table--enable-row-hover.el-table--enable-row-transition.el-table--small > div.el-table__body-wrapper.is-scrolling-none > table > tbody > tr > td.el-table_20_column_158.el-table__cell > div > button:nth-child(2) > span
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

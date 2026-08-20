@@ -1,0 +1,24 @@
+[
+  {
+    "case_id": "WEB-021",
+    "subject_name": "__TO_BE_CONFIRMED__",
+    "contact": "__TO_BE_CONFIRMED__",
+    "province": "__TO_BE_CONFIRMED__",
+    "city": "__TO_BE_CONFIRMED__",
+    "scene_name": "自动化标准合同申报场景",
+    "attachment": "__TO_BE_CONFIRMED__",
+    "draft_status": "__TO_BE_CONFIRMED__",
+    "submitted_status": "__TO_BE_CONFIRMED__"
+  },
+  {
+    "case_id": "WEB-029",
+    "business_id": "${TEST_DECLARATION_ID}",
+    "expected_evidence_type": "__TO_BE_CONFIRMED__"
+  },
+  {
+    "case_id": "WEB-030",
+    "valid_declaration_id": "${TEST_DECLARATION_ID}",
+    "illegal_declaration_id": "${TEST_ILLEGAL_DECLARATION_ID}",
+    "contact": "__TO_BE_CONFIRMED__"
+  }
+]

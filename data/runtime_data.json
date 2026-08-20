@@ -1,0 +1,15 @@
+[
+  {
+    "case_id": "WEB-073",
+    "business_id": "${TEST_ARCHIVE_BUSINESS_ID}",
+    "subject_name": "__TO_BE_CONFIRMED__",
+    "asset_id": "${TEST_ASSET_ID}",
+    "declaration_id": "${TEST_DECLARATION_ID}",
+    "contract_id": "${TEST_CONTRACT_ID}",
+    "order_id": "${TEST_ORDER_ID}",
+    "amount": "__TO_BE_CONFIRMED__",
+    "payment_id": "${TEST_PAYMENT_ID}",
+    "transfer_id": "${TEST_TRANSFER_ID}",
+    "evidence_id": "${TEST_EVIDENCE_ID}"
+  }
+]

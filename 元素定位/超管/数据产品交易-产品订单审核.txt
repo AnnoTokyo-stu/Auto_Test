@@ -1,0 +1,88 @@
+数据产品交易
+<div class="el-submenu__title" style="padding-left: 20px; background-color: transparent;"><svg data-v-a3daf1e9="" aria-hidden="true" class="svg-icon"><use data-v-a3daf1e9="" href="#icon-nav-data (2)"></use></svg><span>数据产品交易<div class="el-badge todo-badge"><sup class="el-badge__content">1</sup></div></span><i class="el-submenu__icon-arrow el-icon-arrow-down"></i></div>
+#app > div > div.hasTagsView.main-container > div > div.el-scrollbar > div.scrollbar-wrapper.el-scrollbar__wrap > div > ul > div:nth-child(6) > li > div
+
+产品订单审核
+<li role="menuitem" tabindex="-1" class="el-menu-item is-active" style="padding-left: 40px; background-color: transparent; color: rgb(255, 255, 255);"><span>产品订单审核</span></li>
+#app > div > div.hasTagsView.main-container > div > div.el-scrollbar > div.scrollbar-wrapper.el-scrollbar__wrap > div > ul > div:nth-child(6) > li > ul > div:nth-child(4) > a > li
+
+标准订单
+<div id="tab-STANDARD_ORDER" aria-controls="pane-STANDARD_ORDER" role="tab" aria-selected="true" tabindex="0" class="el-tabs__item is-top is-active">标准订单</div>
+#tab-STANDARD_ORDER
+
+关键词
+<input type="text" autocomplete="off" placeholder="请输入" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div:nth-child(1) > div > form > div.form-items-wrapper > div:nth-child(1) > div > div > input
+
+订单状态（待提供方审核，待运营方审核，待上传合同，待确认合同，待支付，待确认收款，待交付，交付中，待重新交付，待验收，已完成，提供方审核不通过，运营方审核不通过）
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div:nth-child(1) > div > form > div.form-items-wrapper > div:nth-child(2) > div > div > div > input
+
+合同状态（待上传，已上传，待确认，已确认，已驳回）
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div:nth-child(1) > div > form > div.form-items-wrapper > div:nth-child(3) > div > div > div > input
+
+支付状态（待支付，已支付，待确认收款，已到账）
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div:nth-child(1) > div > form > div.form-items-wrapper > div:nth-child(4) > div > div > div > input
+
+创建时间
+<div data-v-5c593961="" class="el-date-editor el-range-editor el-input__inner el-date-editor--daterange el-range-editor--small"><i class="el-input__icon el-range__icon el-icon-date"></i><input autocomplete="off" placeholder="开始日期" name="" class="el-range-input"><span class="el-range-separator">-</span><input autocomplete="off" placeholder="结束日期" name="" class="el-range-input"><i class="el-input__icon el-range__close-icon"></i></div>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div:nth-child(1) > div > form > div.form-items-wrapper > div:nth-child(5) > div > div
+
+查询
+<button data-v-5c593961="" type="button" class="el-button el-button--primary el-button--small"><!----><!----><span><svg data-v-a3daf1e9="" data-v-5c593961="" aria-hidden="true" class="svg-icon"><use data-v-a3daf1e9="" href="#icon-search"></use></svg><span data-v-5c593961="">查询</span></span></button>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div:nth-child(1) > div > form > div.el-row > div > div > button.el-button.el-button--primary.el-button--small
+
+重置
+<button data-v-5c593961="" type="button" class="el-button el-button--default el-button--small"><!----><!----><span><svg data-v-a3daf1e9="" data-v-5c593961="" aria-hidden="true" class="svg-icon"><use data-v-a3daf1e9="" href="#icon-refresh"></use></svg><span data-v-5c593961="">重置</span></span></button>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div:nth-child(1) > div > form > div.el-row > div > div > button.el-button.el-button--default.el-button--small
+
+查看详情
+<button data-v-b4b68611="" type="button" class="el-button el-button--text el-button--small"><!----><!----><span> 查看详情 </span></button>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div:nth-child(2) > div > div > div > div.el-table.el-table--fit.el-table--scrollable-x.el-table--enable-row-transition.el-table--small > div.el-table__fixed-right > div.el-table__fixed-body-wrapper > table > tbody > tr:nth-child(1) > td.el-table_9_column_95.is-center.el-table__cell > div > span > button
+
+审核进入按钮
+<span> 审核 </span>
+#app > div > div.hasTagsView.main-container > section > div > div:nth-child(3) > div:nth-child(2) > div > div > div > div.el-table.el-table--fit.el-table--scrollable-x.el-table--enable-row-transition.el-table--small > div.el-table__fixed-right > div.el-table__fixed-body-wrapper > table > tbody > tr:nth-child(2) > td.el-table_9_column_95.is-center.el-table__cell > div > span > button:nth-child(2) > span
+
+审核结果
+<div data-v-d3214b56="" role="radiogroup" class="el-radio-group"><label data-v-d3214b56="" role="radio" aria-checked="true" tabindex="0" class="el-radio is-checked"><span class="el-radio__input is-checked"><span class="el-radio__inner"></span><input type="radio" aria-hidden="true" tabindex="-1" autocomplete="off" class="el-radio__original" value="PASS"></span><span class="el-radio__label">通过<!----></span></label><label data-v-d3214b56="" role="radio" tabindex="-1" class="el-radio"><span class="el-radio__input"><span class="el-radio__inner"></span><input type="radio" aria-hidden="true" tabindex="-1" autocomplete="off" class="el-radio__original" value="REJECT"></span><span class="el-radio__label">不通过<!----></span></label></div>
+body > div.el-dialog__wrapper.data-asset-trade-page > div > div.el-dialog__body > div > div > div.section-body > form > div.el-form-item.is-success.is-required.el-form-item--small > div > div
+
+审核意见
+<textarea autocomplete="off" rows="4" placeholder="请输入审核意见" class="el-textarea__inner" style="min-height: 31.3333px;"></textarea>
+body > div.el-dialog__wrapper.data-asset-trade-page > div > div.el-dialog__body > div > div > div.section-body > form > div:nth-child(2) > div > div > textarea
+
+取消
+<button data-v-d3214b56="" type="button" class="el-button el-button--default el-button--small"><!----><!----><span>取消</span></button>
+body > div.el-dialog__wrapper.data-asset-trade-page > div > div.el-dialog__footer > button.el-button.el-button--default.el-button--small
+
+提交审核结果
+<button data-v-d3214b56="" type="button" class="el-button el-button--primary el-button--small"><!----><!----><span> 提交审核结果 </span></button>
+body > div.el-dialog__wrapper.data-asset-trade-page > div > div.el-dialog__footer > button.el-button.el-button--primary.el-button--small
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

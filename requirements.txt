@@ -1,0 +1,4 @@
+selenium>=4,<5
+pytest>=8,<10
+allure-pytest>=2,<3
+python-dotenv>=1.2,<2

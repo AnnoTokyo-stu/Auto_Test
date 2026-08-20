@@ -1,0 +1,280 @@
+主体基本情况：
+下拉框：
+<div data-v-1be64d07="" class="fx-center" style="padding-bottom: 16px;"><i data-v-1be64d07="" class="el-icon-caret-bottom icon"></i><h2 data-v-1be64d07="">主体基本情况</h2></div>
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(1) > div.fx-center
+
+1.国家选择（不可选择，默认为中国）
+<input type="text" disabled="disabled" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div > div > div.el-input.el-input--small.is-disabled.el-input--suffix > input
+
+2.单位名称
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="50" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div > div > input
+
+3.单位所在省份
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > div > div > div.el-input.el-input--small.el-input--suffix > input
+
+4.办公所在地：
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="255" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(4) > div > div > input
+
+5.所属行业
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(5) > div > div > div.el-input.el-input--small.el-input--suffix > input
+
+6.统一社会信用代码
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="18" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(6) > div > div > input
+
+7.单位注册地址
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="255" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(7) > div > div > input
+
+8.员工数量数字
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="8" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(8) > div:nth-child(1) > div > div > input
+
+9.员工数量单位
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(8) > div:nth-child(2) > div > div > div.el-input.el-input--small.el-input--suffix > input
+
+10.是否长期勾选框
+<span class="el-checkbox__inner"></span>
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(9) > div:nth-child(1) > div > label > span.el-checkbox__input > span
+
+11.日期选择
+<input type="text" autocomplete="off" name="" placeholder="请选择 日期" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(9) > div.el-form-item.flex1.is-required.el-form-item--small > div > div > input
+
+12.单位性质
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(10) > div > div > div.el-input.el-input--small.el-input--suffix > input
+
+13.经营范围
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="800" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(11) > div > div > input
+
+
+14.上传代码凭证
+<button data-v-1be64d07="" type="button" class="el-button el-button--primary el-button--small"><!----><!----><span><i data-v-1be64d07="" class="el-icon-upload2"></i> 上传 </span></button>
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(1) > div:nth-child(2) > div:nth-child(12) > div > div:nth-child(1) > div > button
+
+法定代表人：
+下拉框：
+<div data-v-1be64d07="" class="fx-center" style="padding-bottom: 16px;"><i data-v-1be64d07="" class="el-icon-caret-bottom icon"></i><h2 data-v-1be64d07="">法定代表人信息</h2></div>
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(2) > div.fx-center
+
+1.是否有法定代表人选择框（选中后这一板块的内容都不会显示）
+<span class="el-checkbox__inner"></span>
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div > label > span.el-checkbox__input > span
+
+2.姓名
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="50" class="el-input__inner">
+
+3.电话地区选择
+<input type="text" autocomplete="off" placeholder="+86" class="el-input__inner">
+
+4.电话输入
+<input type="text" autocomplete="off" placeholder="请输入" class="el-input__inner">
+
+5.国家选择
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+
+6.职务
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="50" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(2) > div:nth-child(2) > div:nth-child(5) > div > div > input
+
+7.邮箱
+<input type="text" autocomplete="off" placeholder="请输入" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(2) > div:nth-child(2) > div:nth-child(6) > div > div > input
+
+8.证件类型
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(2) > div:nth-child(2) > div.fx-center > div > div > div > div.el-input.el-input--small.el-input--suffix > input
+
+9.证件号码
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="18" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(2) > div:nth-child(2) > div:nth-child(8) > div > div > input
+
+10.证件附件上传
+<button data-v-1be64d07="" type="button" class="el-button el-button--primary el-button--small"><!----><!----><span><i data-v-1be64d07="" class="el-icon-upload2"></i> 上传 </span></button>
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(2) > div:nth-child(2) > div:nth-child(9) > div > div:nth-child(1) > div > button
+
+经办人信息
+下拉框
+<div data-v-1be64d07="" class="fx-center" style="padding-bottom: 16px;"><i data-v-1be64d07="" class="el-icon-caret-bottom icon"></i><h2 data-v-1be64d07="">经办人（系统注册人）信息</h2></div>
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(3) > div.fx-center
+
+联系电话、姓名、国家、邮箱都不需要填写，都是账号信息
+
+职务
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="50" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(3) > div:nth-child(2) > div:nth-child(4) > div > div > input
+
+证件类型
+<input type="text" readonly="readonly" autocomplete="off" placeholder="请选择" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(3) > div:nth-child(2) > div.fx-center > div > div > div > div.el-input.el-input--small.el-input--suffix > input
+
+证件号码
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="18" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(3) > div:nth-child(2) > div:nth-child(7) > div > div > input
+
+证件见附件上传
+<button data-v-1be64d07="" type="button" class="el-button el-button--primary el-button--small"><!----><!----><span><i data-v-1be64d07="" class="el-icon-upload2"></i> 上传 </span></button>
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(3) > div:nth-child(2) > div:nth-child(8) > div > div:nth-child(1) > div > button
+
+收款账户信息
+下拉框
+<div data-v-1be64d07="" class="fx-center" style="padding-bottom: 16px;"><i data-v-1be64d07="" class="el-icon-caret-bottom icon"></i><h2 data-v-1be64d07="">收款账户信息</h2></div>
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(4) > div.fx-center
+
+以下三个至少选一个即可
+1.CNY
+<div data-v-1be64d07="" class="account-card"><span data-v-1be64d07="" class="account-badge account-badge--default"> 未配置 </span><span data-v-1be64d07="" class="account-label">CNY人民币账户</span></div>
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(4) > div:nth-child(2) > div > div:nth-child(1)
+
+1.1收款公司中文名全称
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="100" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(1) > div > div > input
+
+1.2对公收款账号
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="50" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(2) > div > div > input
+
+1.3开户行
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="100" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(3) > div > div > input
+
+1.4开户支行
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="100" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(4) > div > div > input
+
+1.5预设转账附言（有默认值：数据服务费+订单号 + 款项用途）
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="255" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(5) > div > div > input
+
+1.6确定按钮
+<button data-v-1be64d07="" type="button" class="el-button el-button--primary el-button--small"><!----><!----><span>确定</span></button>
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__footer > div > button.el-button.el-button--primary.el-button--small
+
+1.7取消按钮
+<button data-v-1be64d07="" type="button" class="el-button el-button--default el-button--small"><!----><!----><span> 取消 </span></button>
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__footer > div > button.el-button.el-button--default.el-button--small
+
+2.USD
+<div data-v-1be64d07="" class="account-card"><span data-v-1be64d07="" class="account-badge account-badge--default"> 未配置 </span><span data-v-1be64d07="" class="account-label">USD 美元外汇账户</span></div>
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(4) > div:nth-child(2) > div > div:nth-child(2)
+
+公司全称
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="100" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(1) > div > div > input
+
+美元外汇收款账号
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="50" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(2) > div > div > input
+
+开户行
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="100" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(3) > div > div > input
+
+支行
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="100" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(4) > div > div > input
+
+swift代码
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="11" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(5) > div > div > input
+
+银行英文地址
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="255" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(6) > div > div > input
+
+预设转账附言
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="255" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(7) > div > div > input
+
+确定
+<span>确定</span>
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__footer > div > button.el-button.el-button--primary.el-button--small > span
+
+取消
+<button data-v-1be64d07="" type="button" class="el-button el-button--default el-button--small"><!----><!----><span> 取消 </span></button>
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__footer > div > button.el-button.el-button--default.el-button--small
+
+3.EUR
+<div data-v-1be64d07="" class="account-card"><span data-v-1be64d07="" class="account-badge account-badge--default"> 未配置 </span><span data-v-1be64d07="" class="account-label">EUR 欧元外汇账户</span></div>
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > form > div:nth-child(4) > div:nth-child(2) > div > div:nth-child(3)
+
+公司全称
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="100" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(1) > div > div > input
+
+欧元外汇收款账号
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="50" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(2) > div > div > input
+
+开户行
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="100" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(3) > div > div > input
+
+支行
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="100" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(4) > div > div > input
+
+swift代码
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="11" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(5) > div > div > input
+
+银行英文地址
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="255" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(6) > div > div > input
+
+预设转账附言
+<input type="text" autocomplete="off" placeholder="请输入" maxlength="255" class="el-input__inner">
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__body > form > div:nth-child(7) > div > div > input
+
+确定：
+<button data-v-1be64d07="" type="button" class="el-button el-button--primary el-button--small"><!----><!----><span>确定</span></button>
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__footer > div > button.el-button.el-button--primary.el-button--small
+
+取消
+<button data-v-1be64d07="" type="button" class="el-button el-button--default el-button--small"><!----><!----><span> 取消 </span></button>
+#app > div > div.hasTagsView.main-container > section > div > div.el-dialog__wrapper > div > div.el-dialog__footer > div > button.el-button.el-button--default.el-button--small
+
+总返回按钮
+<button data-v-1be64d07="" type="button" class="el-button back-btn el-button--small"><!----><!----><span> 返回 </span></button>
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > div > button.el-button.back-btn.el-button--small
+
+提交按钮
+<button data-v-1be64d07="" type="button" class="el-button save-btn el-button--primary el-button--small"><!----><!----><span> 提交 </span></button>
+#app > div > div.hasTagsView.main-container > section > div > div.fx-all-center.fx-column > div > button.el-button.save-btn.el-button--primary.el-button--small
+
+关于上传附件的内容，可在项目内建立一个测试用资料文件夹，我放一些名字对应的图片直接上传即可
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,45 @@
+[
+  {
+    "case_id": "WEB-044",
+    "asset_name_prefix": "自动化数据资产",
+    "category": "__TO_BE_CONFIRMED__",
+    "level": "__TO_BE_CONFIRMED__",
+    "source": "自动化测试环境"
+  },
+  {
+    "case_id": "WEB-058",
+    "scenario": "valid_chain",
+    "asset_id": "${TEST_ASSET_ID}",
+    "declaration_id": "${TEST_DECLARATION_ID}",
+    "contract_id": "${TEST_CONTRACT_ID}",
+    "quantity": "__TO_BE_CONFIRMED__",
+    "expected_allowed": true
+  },
+  {
+    "case_id": "WEB-058",
+    "scenario": "invalid_declaration",
+    "asset_id": "${TEST_ASSET_ID}",
+    "declaration_id": "${TEST_ILLEGAL_DECLARATION_ID}",
+    "contract_id": "${TEST_CONTRACT_ID}",
+    "quantity": "__TO_BE_CONFIRMED__",
+    "expected_allowed": false
+  },
+  {
+    "case_id": "WEB-061",
+    "scenario": "matched_payment",
+    "order_id": "${TEST_ORDER_ID}",
+    "amount": "__TO_BE_CONFIRMED__",
+    "payment_time": "__TO_BE_CONFIRMED__",
+    "voucher": "__TO_BE_CONFIRMED__",
+    "expected_allowed": true
+  },
+  {
+    "case_id": "WEB-061",
+    "scenario": "mismatched_amount",
+    "order_id": "${TEST_ORDER_ID}",
+    "amount": "__TO_BE_CONFIRMED__",
+    "payment_time": "__TO_BE_CONFIRMED__",
+    "voucher": "__TO_BE_CONFIRMED__",
+    "expected_allowed": false
+  }
+]

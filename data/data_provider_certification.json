@@ -1,0 +1,43 @@
+[
+  {
+    "case_id": "WEB-011",
+    "subject": {
+      "company_name": "银河数据自动化测试有限公司",
+      "province": "北京市",
+      "office_address": "北京市海淀区测试路100号自动化测试园区A座",
+      "industry": "互联网",
+      "credit_code": "91110108MA00TEXY1F",
+      "registered_address": "北京市海淀区测试路100号A座101室",
+      "employee_count": 50,
+      "employee_unit": "人",
+      "business_license_long_term": true,
+      "business_expiry_date": "",
+      "organization_nature": "内资",
+      "business_scope": "数据处理服务、软件测试服务、技术咨询服务（自动化测试模拟数据，不用于真实经营）。",
+      "business_license_file": "test_materials/business_license.png"
+    },
+    "legal_representative": {
+      "absent": false,
+      "name": "张测试",
+      "phone": "13100000001",
+      "position": "法定代表人",
+      "email": "legal-representative@example.com",
+      "id_type": "居民身份证",
+      "id_number": "11010819900101001X",
+      "id_file": "test_materials/legal_representative_id.png"
+    },
+    "operator": {
+      "position": "测试工程师",
+      "id_type": "居民身份证",
+      "id_number": "11010819920202002X",
+      "id_file": "test_materials/operator_id.png"
+    },
+    "cny_account": {
+      "company_name": "银河数据自动化测试有限公司",
+      "account_number": "11001000000000000001",
+      "bank_name": "中国测试银行",
+      "branch_name": "北京海淀测试支行",
+      "remittance_note": "数据服务费+订单号+款项用途"
+    }
+  }
+]
