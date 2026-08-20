@@ -1,4 +1,4 @@
-# 中国电信银河数据跨境平台 Web 自动化测试
+# 数据跨境平台 Web 自动化测试
 
 基于 Python、Selenium、Page Object 与 Pytest 的 Web UI 主流程自动化项目。测试入口默认为：
 
