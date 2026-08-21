@@ -116,7 +116,7 @@ pipeline {
             junit testResults: 'artifacts/junit.xml', allowEmptyResults: true
             archiveArtifacts artifacts: 'artifacts/**/*,report/**/*,screenshots/**/*', allowEmptyArchive: true, fingerprint: true
             emailext(
-                to: params.REPORT_RECIPIENTS,
+                to: params.REPORT_RECIPIENTS ?: '13108697141@163.com',
                 subject: "[${currentBuild.currentResult}] ${env.JOB_NAME} #${env.BUILD_NUMBER} 自动化测试报告",
                 mimeType: 'text/html',
                 body: """
