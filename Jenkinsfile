@@ -117,16 +117,16 @@ pipeline {
             archiveArtifacts artifacts: 'artifacts/**/*,report/**/*,screenshots/**/*', allowEmptyArchive: true, fingerprint: true
             emailext(
                 to: params.REPORT_RECIPIENTS ?: '13108697141@163.com',
-                subject: "[${currentBuild.currentResult}] ${env.JOB_NAME} #${env.BUILD_NUMBER} 自动化测试报告",
-                mimeType: 'text/html',
+                subject: "[${currentBuild.currentResult}] ${env.JOB_NAME} #${env.BUILD_NUMBER} \u81EA\u52A8\u5316\u6D4B\u8BD5\u62A5\u544A",
+                mimeType: 'text/html; charset=UTF-8',
                 body: """
                     <h2>${env.JOB_NAME} #${env.BUILD_NUMBER}</h2>
-                    <p><b>构建结果：</b>${currentBuild.currentResult}</p>
-                    <p><b>测试范围：</b>${params.RUN_UI ? params.TEST_SCOPE : 'CI 安全检查（未执行 UI）'}</p>
-                    <p><b>UI 测试：</b>${params.RUN_UI ? '已启用（无头模式）' : '未启用'}</p>
-                    <p><b>破坏性测试：</b>${params.RUN_DESTRUCTIVE ? '已启用' : '未启用'}</p>
-                    <p><a href="${env.BUILD_URL}">查看 Jenkins 构建详情</a></p>
-                    <p>若本次执行了 UI 测试，附件 allure-report.zip 中的 index.html 可离线打开。</p>
+                    <p><b>&#26500;&#24314;&#32467;&#26524;&#65306;</b>${currentBuild.currentResult}</p>
+                    <p><b>&#27979;&#35797;&#33539;&#22260;&#65306;</b>${params.RUN_UI ? params.TEST_SCOPE : 'CI &#23433;&#20840;&#26816;&#26597;&#65288;&#26410;&#25191;&#34892; UI&#65289;'}</p>
+                    <p><b>UI &#27979;&#35797;&#65306;</b>${params.RUN_UI ? '&#24050;&#21551;&#29992;&#65288;&#26080;&#22836;&#27169;&#24335;&#65289;' : '&#26410;&#21551;&#29992;'}</p>
+                    <p><b>&#30772;&#22351;&#24615;&#27979;&#35797;&#65306;</b>${params.RUN_DESTRUCTIVE ? '&#24050;&#21551;&#29992;' : '&#26410;&#21551;&#29992;'}</p>
+                    <p><a href="${env.BUILD_URL}">&#26597;&#30475; Jenkins &#26500;&#24314;&#35814;&#24773;</a></p>
+                    <p>&#33509;&#26412;&#27425;&#25191;&#34892;&#20102; UI &#27979;&#35797;&#65292;&#38468;&#20214; allure-report.zip &#20013;&#30340; index.html &#21487;&#31163;&#32447;&#25171;&#24320;&#12290;</p>
                 """,
                 attachmentsPattern: 'artifacts/allure-report.zip',
                 attachLog: true,
