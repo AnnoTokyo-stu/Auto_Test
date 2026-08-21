@@ -18,8 +18,11 @@ Jenkins 每 5 分钟轮询一次私有 GitHub 仓库。自动构建只执行：
 - `RUN_UI=true`：运行真实浏览器 UI 测试；
 - `TEST_SCOPE=smoke|p0|all`：选择范围；
 - `RUN_DESTRUCTIVE=true`：允许新增或修改测试数据。
+- `REPORT_RECIPIENTS`：测试报告收件人，多个地址使用英文逗号分隔。
 
 即使启用 `RUN_DESTRUCTIVE`，生产注册、产品提交、审核、订单、合同、支付、交付和验收仍需要对应的 Pytest 生产确认参数。Jenkinsfile 不会自动添加这些参数。
+
+UI 构建会生成 `artifacts/allure-results`，在 Jenkins 中发布 Allure 报告，并额外生成可离线打开的单文件报告 `artifacts/allure-report/index.html`。邮件在成功和失败时都会发送；有 UI 测试结果时附带 `allure-report.zip`，同时附带压缩构建日志。
 
 ## 凭据
 
